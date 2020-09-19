@@ -1,0 +1,150 @@
+body {
+    font-family: Arial;
+    background-color: rgb(185,179,175);
+  }
+
+
+h1 { 
+    font-family: 'Gaegu', Helvetica;
+    font-size: 72px;
+    text-shadow: 1px 1px 3px;
+    color: rgb(255, 255, 255);
+    background-color: DarkCyan;
+    padding-top: 55.5px;
+    padding-left: 5px;
+    padding-bottom: 55.5px;
+  }
+  
+h3 {
+    font-family: Arial;
+    color: DarkCyan;
+    font-size: 36px;
+    text-shadow: -1px -1px 3px #666666;
+    
+  }
+  
+h3#ABCs {
+    color: red;
+    background-color: rgb(255,255,255);
+    padding-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+  
+h2 {
+    font-family: Courier;
+    color: rgb(255,255,255);
+    background-color: #ee3e80;
+    padding: 10px
+    
+  }
+  
+p {
+    font-family: monospace;
+    font-size: 125%;
+    
+  }
+  
+.inputBoxes {
+    border: 1px solid #665544;
+    background-color: rgb(215,199,195); 
+    padding: 15px;
+  }
+  
+input.submit:hover {
+    background-color: #665544;
+  }
+  
+input.submit:active {
+    background-color: chocolate;
+  }
+  
+.storeFormClass {
+    font-family: monospace; 
+    font-weight: medium;
+    font-style: oblique;
+    font-size: 100%;
+    border: 1px solid;
+        
+  }
+  
+salesTable {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 95%
+  }
+  
+table {
+    width: 1000px;
+  }
+  
+th, td {
+    padding: 7px 10px 10px 10px;
+  }
+  
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 75%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+  }
+  
+tr:hover {
+    background-color: #c3e6e5;
+  }
+
+  #hoursRow {
+    font-weight: bold;  
+    font-size: 95%;   
+  }
+  
+  #footerRow {
+    font-weight: bold;  
+    font-size: 95%;   
+  }
+
+  h2.aboutBanner {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 250px; 
+}
+
+h2.locationBanner {
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    width: 250px; 
+}
+
+h2.salesBanner {
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    width: 250px;    
+}
+
+h2.logo {
+    position: fixed;
+    top: 180px;
+    right: 0px;
+    width: 250px;
+    height: 250px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+p#welcome {
+    width: 900px;
+    font-size: 36px;
+    font-weight: medium; 
+}
+.pic1{
+  width: 800px;
+}
